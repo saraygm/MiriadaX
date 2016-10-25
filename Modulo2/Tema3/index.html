@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modulo2. Tema 3. Opcional</title>
+	
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+
+	<h1>Imagen responsive</h1>
+	<p>Se mostrará una u otra según el tamaño del dispositivo:</p>
+	<picture>
+		<source media="(min-width: 1100px) "srcset="angry1.png">
+		<source media="(min-width: 1000px) "srcset="angry2.png">
+		<source media="(min-width: 800px) "srcset="angry3.png">
+		<source media="(min-width: 600px) "srcset="angry4.png">
+		<source media="(min-width: 400px) "srcset="angry5.png">
+		<source media="(min-width: 300px) "srcset="angry6.png">
+		<img src="angry1.png" alt="Angry Birds">
+	</picture>
+
+	<h1>Imágenes vectoriales SVG</h1>
+		<img src="redhat.svg" alt="Isotipo RedHat"><br>
+		<img src="ubuntu.svg" alt="Isotipo Ubuntu">				
+
+	<h1>Vídeo YouTube</h1>
+		<video width="600px" poster="angry4.png" controls>
+			<source src="video.mp4" type='video/mp4; codecs="avc1,mp4a"' />
+			<source src="video.webm" type='video/webm; codecs="vp8,vorbis"' />
+		Tu navegador no puede reproducir este vídeo.</video>
+
+
+</body>
+</html>
