@@ -1,0 +1,117 @@
+body {
+	color: white;
+	background: #ff9900;
+}
+
+h1 {
+	font-family: Verdana, Arial, sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 40px;
+	color: #444;
+}
+
+h3 {
+	font-family: Roboto, sans-serif;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 28px;
+	color: #ddd;
+}
+
+
+p {
+	font-family: Lato, Arial, sans-serif;
+	color: #444;
+	font-size: 16px;
+}
+
+section img {
+	width: 600px;
+	border: 15px solid #fff;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+
+section {
+	width: 630px;
+	margin: auto;
+}
+
+div {
+	width: 70%;
+	color: red;
+	font-weight: bold;
+	margin: auto;
+	font-size: 20px;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 55px 0px 55px 0px;
+	border: 0px solid #444;
+}
+
+#div1 p {
+	color: black;
+}
+
+#div1 {
+	background: #F04A08;
+}
+
+
+#div2 p {
+	color: #3A67BA;
+}
+
+
+#div2 {
+	background: #072467;
+}
+
+
+#div3 p {
+	color: #00b5cc;
+}
+
+#div3 {
+	background: #3A67BA;
+}
+
+#div4 p {
+	color: red;
+}
+
+#div4 {
+	background: tomato;
+}
+
+#div5 p {
+	color: #eee;
+}
+
+#div5 {
+	background: -webkit-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background: -moz-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background: -ms-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background: -o-linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+	background: linear-gradient(90deg, #e74d6b 10%, #8cc8ac 90%);
+}
+
+#div6 {
+	width: 590px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+footer {
+	text-align: center;
+}
